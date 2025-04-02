@@ -1,0 +1,878 @@
+*{
+    margin: 0;
+    padding: 0px;
+}
+
+/* Header component */
+
+header{
+    background-color: white;
+    width: 90%;
+    height: 80px;
+    margin: auto;
+    border-bottom: 1px solid rgba(70, 69, 69, 0.144);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.logo{
+    height: 100%;
+    width: 20%;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.primary-logo{
+    height: 60px;
+    width: 60px;
+}
+
+.menu{
+    width: auto;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navlink{
+    text-decoration: none;
+}
+
+.menu li{
+    list-style: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    border-radius: 10px;
+
+
+}
+
+.menu li:hover{
+    background-color: rgba(230, 13, 13, 0.781);
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.action-button{
+    width: auto;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.primary-btn{
+    padding: 15px 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.secondary-btn{
+    padding: 15px 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(230, 13, 13, 0.781);
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+/* Herosection component */
+main{
+    height: auto;
+    width: 90%;
+    /* background-color: green; */
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+.image .heroimage{
+    height: 475px;
+    width: 475px;
+    border-radius: 10px;
+}
+
+.content{
+    width: 475px;
+    height: 500px;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.content h1{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: end;
+
+}
+
+.content h1 span{
+    font-size: 35px;
+    color:rgba(230, 13, 13, 0.781);
+   
+}
+
+.content .download-button{
+    font-size: 15px;
+    color: white;
+    background-color:rgba(230, 13, 13, 0.781);
+    border: none;
+    border-radius: 10px;
+    font-weight:600;
+    padding: 15px 30px;
+    cursor: pointer;
+
+}
+
+/* Footer component */
+.footer-body{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    border-top: 1px solid rgba(70, 69, 69, 0.144);
+    padding-top: 10px;
+    /* background-color: black; */
+}
+
+.footer-top{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    
+}
+
+.footer-top .footer-left{
+    width: 50%;
+    height: auto;
+}
+
+.footer-logo{
+    height: 100px;
+    width: 100px;
+}
+
+.footer-top .footer-right{
+    width: 40%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+}
+.first-col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;    
+}
+
+.second-col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px; 
+    width: 347px;
+    /* background-color: green;/ */
+       
+}
+
+.footer-link{
+    text-decoration: none;
+    color: black;
+
+}
+
+.third-col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;    
+}
+
+h3{
+    font-size: 18px;    
+}
+
+.footer-bottom{
+    border-top: 1px solid rgba(70, 69, 69, 0.144);
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: red; */
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+.socials{
+    height: 50px;
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    /* background-color: green; */
+}
+
+.social-icon{
+    height: 30px;
+    width: 30px;
+    
+}
+
+/* About Page */
+.about-body{
+    width: 90%;
+    height: auto;
+    /* padding-top: 20px; */
+    padding-bottom: 20px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items:center;
+    justify-content: center;
+    /* background-color: green; */
+}
+
+.about-image{
+    height: auto;
+    width: 550px;
+    border-radius: 10px;
+}
+
+.about-text{
+    height: auto;
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+   gap: 15px;
+   padding-top: 15px;
+    
+}
+
+/* Github page */
+.github-body{
+    width: 90%;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: auto;
+    background-color: rgb(41, 40, 40);
+    color: white;
+    text-align: center;
+    display: flex;
+    gap: 130px;
+    justify-content: center;
+    border-radius: 10px;   
+   
+}
+
+/* Contact page */
+.contact-body{
+    width: 90%;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.contact-info{
+    width: 550px;
+    height: auto;
+    background-color:rgb(216, 214, 214);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    border-radius: 10px;
+    border: none;
+    padding: 20px;
+
+}
+
+.contact-info div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.contact-info div p{
+    font-size: 20px;
+    /* font-weight: 900; */
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+
+}
+
+.contact-image{
+    height: 25px;
+    width: 25px;
+   
+}
+
+.contact-form form{
+    width: 550px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* background-color: red; */
+}
+
+.contact-form form input{
+    width: 75%;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid rgba(70, 69, 69, 0.144);
+    padding-left: 20px;
+    font-size: 15px;
+}
+
+.contact-form form .submit-button{
+    font-size: 15px;
+    color: white;
+    background-color:rgba(230, 13, 13, 0.781);
+    border: none;
+    border-radius: 10px;
+    font-weight:600;
+    padding: 10px 20px;
+    width: 30%;
+    margin: auto;
+    cursor: pointer;
+}
+
+/* Card component */
+.card{
+    width: 710px;
+    margin: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    /* background-color: green; */
+    padding: 10px 10px;
+    border-radius: 15px;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-content h1{
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+
+.view-project{
+    font-size: 14px;
+    color: white;
+    background-color:rgba(230, 13, 13, 0.781);
+    border: none;
+    border-radius: 10px;
+    font-weight:600;
+    padding: 13px 20px;
+    width: 726px;
+    margin: auto;
+    cursor: pointer;
+}
+
+.project-link{
+    text-decoration: none;
+    color: black;
+}
+
+.project-image{
+    height: 300px;
+    width: 550px;
+    border-radius: 10px;
+}
+
+/* Project page */
+.project-container{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+/* Responsive Design CSS */
+
+@media (max-width: 1024px) { /* Tablets */
+    header {
+        flex-direction: row;
+        height: auto;
+        padding: 10px;
+    }
+    .menu {
+        flex-wrap: wrap;
+    }
+    .menu li {
+        font-size: 18px;
+        padding: 8px 15px;
+    }
+    .primary-btn, .secondary-btn {
+        padding: 12px 25px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 768px) { /* Mobile */
+    header {
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        padding: 10px 0;
+    }
+    .logo {
+        width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+    .menu {
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+    .menu li {
+        padding: 10px;
+        font-size: 16px;
+        width: 100%;
+    }
+    .action-button {
+        flex-direction: column;
+        width: 100%;
+        gap: 10px;
+    }
+    .primary-btn, .secondary-btn {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+/* Herosection component */
+main {
+    height: auto;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.image .heroimage {
+    height: 475px;
+    width: 475px;
+    border-radius: 10px;
+}
+
+.content {
+    width: 475px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.content h1 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: end;
+}
+
+.content h1 span {
+    font-size: 35px;
+    color: rgba(230, 13, 13, 0.781);
+}
+
+.content .download-button {
+    font-size: 15px;
+    color: white;
+    background-color: rgba(230, 13, 13, 0.781);
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    padding: 15px 30px;
+    cursor: pointer;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) { /* Tablets */
+    main {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+    .image .heroimage {
+        height: 400px;
+        width: 400px;
+    }
+    .content {
+        width: 100%;
+        height: auto;
+    }
+    .content h1 {
+        font-size: 35px;
+        text-align: center;
+    }
+    .content h1 span {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 768px) { /* Mobile */
+    main {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+    .image .heroimage {
+        height: 300px;
+        width: 300px;
+    }
+    .content {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+    }
+    .content h1 {
+        font-size: 28px;
+        text-align: center;
+    }
+    .content h1 span {
+        font-size: 25px;
+    }
+    .content .download-button {
+        font-size: 14px;
+        padding: 12px 25px;
+    }
+}
+
+
+/* Footer component */
+.footer-body {
+    width: 90%;
+    height: auto;
+    margin: auto;
+    border-top: 1px solid rgba(70, 69, 69, 0.144);
+    padding-top: 10px;
+}
+
+.footer-top {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.footer-top .footer-left {
+    width: 50%;
+    height: auto;
+}
+
+.footer-logo {
+    height: 100px;
+    width: 100px;
+}
+
+.footer-top .footer-right {
+    width: 40%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+}
+
+.first-col, .second-col, .third-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.second-col {
+    width: 347px;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: black;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+.footer-bottom {
+    border-top: 1px solid rgba(70, 69, 69, 0.144);
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+.socials {
+    height: 50px;
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.social-icon {
+    height: 30px;
+    width: 30px;
+}
+
+/* About Page */
+.about-body {
+    width: 90%;
+    height: auto;
+    padding-bottom: 20px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-image, .about-text {
+    width: 550px;
+}
+
+.about-text {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-top: 15px;
+}
+
+/* Github page */
+.github-body {
+    width: 90%;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: auto;
+    background-color: rgb(41, 40, 40);
+    color: white;
+    text-align: center;
+    display: flex;
+    gap: 130px;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+/* Contact page */
+.contact-body {
+    width: 90%;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.contact-info {
+    width: 550px;
+    height: auto;
+    background-color: rgb(216, 214, 214);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.contact-info div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.contact-info div p {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.contact-image {
+    height: 25px;
+    width: 25px;
+}
+
+.contact-form form {
+    width: 550px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-form form input {
+    width: 75%;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid rgba(70, 69, 69, 0.144);
+    padding-left: 20px;
+    font-size: 15px;
+}
+
+.contact-form form .submit-button {
+    font-size: 15px;
+    color: white;
+    background-color: rgba(230, 13, 13, 0.781);
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    padding: 10px 20px;
+    width: 30%;
+    margin: auto;
+    cursor: pointer;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .footer-top {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-top .footer-left, .footer-top .footer-right {
+        width: 100%;
+        text-align: center;
+    }
+    .about-body, .contact-body {
+        flex-direction: column;
+        text-align: center;
+    }
+    .github-body {
+        flex-direction: column;
+        gap: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .about-image, .about-text, .contact-info, .contact-form form {
+        width: 100%;
+    }
+    .contact-form form input {
+        width: 90%;
+    }
+    .contact-form form .submit-button {
+        width: 50%;
+    }
+}
+
+
+/*    */
+@media (max-width: 1024px) { 
+    .card {
+        padding: 10px; /* Reduce padding on smaller screens */
+    }
+
+    .card-content h1 {
+        font-size: 1.2rem; /* Reduce font size on smaller screens */
+    }
+
+    .view-project {
+        font-size: 0.9rem; /* Reduce font size on smaller screens */
+        padding: 10px 15px; /* Adjust padding for smaller touch targets */
+    }
+
+    .project-image {
+        height: auto; /* Ensure image scales properly */
+    }
+}
+
+@media (max-width: 768px){
+    .card{
+        width: 98%;
+    }
+    .view-project{
+        width: 98%;
+    }
+    .project-container{
+        width: 98%;
+    }
+    .project-image{
+        width: 98%;
+    }
+}
