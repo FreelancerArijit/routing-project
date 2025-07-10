@@ -282,6 +282,25 @@ h3{
     
 }
 
+.about-skill-section h1{
+    text-align: center;
+font-size: 35px;
+}
+
+.about-skills{
+    padding: 45px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    
+}
+
+.about-skills img{
+    height: 150px;
+    width: 150px;
+}
+
 /* Github page */
 .github-body{
     width: 90%;
@@ -470,6 +489,10 @@ h3{
         padding: 12px 25px;
         font-size: 14px;
     }
+
+    .about-skills{
+        flex-wrap: wrap;
+    }
 }
 
 @media (max-width: 768px) { /* Mobile */
@@ -629,6 +652,16 @@ main {
     width: 50%;
     height: auto;
 }
+
+.about-skills{
+        flex-wrap: wrap;
+        
+    }
+
+    .about-skills img{
+        height: 60px;
+        width: 60px;
+    }
 
 .footer-logo {
     height: 100px;

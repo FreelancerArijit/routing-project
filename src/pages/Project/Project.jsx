@@ -7,6 +7,16 @@ function Project(){
         <>
         <div className="project-container">
         <h1>Latest Project</h1>
+
+         <Card  image="./images/project1.png"
+             title="Food Delivering Website"
+             description=" Building a food ordering website’s
+              front-end using HTML, CSS, and React.js
+               for structure, styling, and interactivity.
+                The UI will include a home page, 
+                 ensuring a responsive and smooth user experience. "
+             />
+                <button onClick={() => window.open("https://jade-bombolone-2adebb.netlify.app/", "_blank")} className="view-project">View Project</button>
         
             <Card  image="./images/project1.png"
              title="Food Delivering Website"
@@ -25,9 +35,20 @@ function Project(){
                ensuring a responsive and smooth user experience. "
              />
                 <button onClick={() => window.open("https://dazzling-duckanoo-902281.netlify.app/", "_blank")} className="view-project">View Project</button>
-                
+
+               <Card  image="./images/project1.png"
+             title="Food Delivering Website"
+             description=" Building a food ordering website’s
+              front-end using HTML, CSS, and React.js
+               for structure, styling, and interactivity.
+                The UI will include a home page, 
+                 ensuring a responsive and smooth user experience. "
+             />
+                <button onClick={() => window.open("https://jade-bombolone-2adebb.netlify.app/", "_blank")} className="view-project">View Project</button>  
              
         </div>
+
+        
        
         
         </>

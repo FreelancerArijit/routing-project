@@ -18,9 +18,8 @@ function Header(){
            <NavLink to="/github" className={"navlink"} ><li>Github</li></NavLink>
           <NavLink to="/project" className={"navlink"} ><li>Projects</li></NavLink>
         </div>
-        <div className="action-button">
-            <button className="primary-btn">Login </button>
-            <button className="secondary-btn"> Sign up</button>
+        <div className="action-button">            
+           <NavLink to="/contact"> <button className="secondary-btn"> Hire Me</button></NavLink>
         </div>
        </header>
         
