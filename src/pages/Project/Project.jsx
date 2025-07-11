@@ -8,7 +8,7 @@ function Project(){
         <div className="project-container">
         <h1>Latest Project</h1>
 
-         <Card  image="./images/project1.png"
+         <Card  image="./images/project3.png"
              title="Travel Agency Website"
              description=" Building a travel agency website’s
               where users can view tour plans all details. I using HTML, CSS, and React.js
