@@ -9,12 +9,11 @@ function Project(){
         <h1>Latest Project</h1>
 
          <Card  image="./images/project1.png"
-             title="Food Delivering Website"
-             description=" Building a food ordering website’s
-              front-end using HTML, CSS, and React.js
+             title="Travel Agency Website"
+             description=" Building a travel agency website’s
+              where users can view tour plans all details. I using HTML, CSS, and React.js
                for structure, styling, and interactivity.
-                The UI will include a home page, 
-                 ensuring a responsive and smooth user experience. "
+                "
              />
                 <button onClick={() => window.open("https://jade-bombolone-2adebb.netlify.app/", "_blank")} className="view-project">View Project</button>
         
@@ -36,15 +35,15 @@ function Project(){
              />
                 <button onClick={() => window.open("https://dazzling-duckanoo-902281.netlify.app/", "_blank")} className="view-project">View Project</button>
 
-               <Card  image="./images/project1.png"
-             title="Food Delivering Website"
-             description=" Building a food ordering website’s
-              front-end using HTML, CSS, and React.js
+               <Card  image="./images/erds-website.png"
+             title="Result publishing Website"
+             description=" Building a result publishing static website’s
+               using HTML, CSS, Bootstrap and JavaScript
                for structure, styling, and interactivity.
-                The UI will include a home page, 
+                The UI will include a home page, result page, about page and a contact 
                  ensuring a responsive and smooth user experience. "
              />
-                <button onClick={() => window.open("https://jade-bombolone-2adebb.netlify.app/", "_blank")} className="view-project">View Project</button>  
+                <button onClick={() => window.open("https://erdstalent.netlify.app/", "_blank")} className="view-project">View Project</button>  
              
         </div>
 
